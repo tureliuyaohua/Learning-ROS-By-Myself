@@ -1,0 +1,14 @@
+Author: Liu Yaohua
+
+
+Part ONE: about How To Compile C++ source file in ROS environment
+
+	1.prepare our C++(.cpp) ,CMakeList.txt ,and package.xml files;
+	2.after catkin_make,be sure we have this command below:
+
+	  # In your catkin workspace
+	  $ cd ~/catkin_ws
+	  $ source ./devel/setup.bash 
+
+  NOTICE:
+	1.after ".cpp",there is no  " ",be notice!

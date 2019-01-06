@@ -1,0 +1,6 @@
+cd ~/ws_moveit
+catkin config --extend /opt/ros/kinetic
+catkin build
+
+source ~/ws_moveit/devel/setup.bash
+echo 'source ~/ws_moveit/devel/setup.bash' >> ~/.bashrc
